@@ -1,147 +1,101 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-    background-color: #ffffff;
-    color: #1a1a1a;
-    padding: 30px 10%;
+body{
+  background-color: rgb(244, 244, 244);
 }
 
-.header-container {
+header {
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+small {
+    color: red;
+    font-size: 20px;
+}
+
+p {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
+    font-size: 30px;
+}
+.texto-pequeno {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.logo-area small {
-    font-family: Arial, sans-serif;
-    font-size: 0.65rem;
-    color: #888;
-    letter-spacing: 1.5px;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 4px;
+#titulo-header p{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.logo-area h1 {
-    font-size: 1.6rem;
-    color: #1a1a1a;
-    font-weight: bold;
+#menu-header{
+  display: flex;
+  gap: 10px;
 }
 
-.menu-area {
-    display: flex;
-    gap: 20px;
+#menu-header p{
+ color: black;
+ font-size: 16px;
 }
 
-.menu-item {
-    font-family: Arial, sans-serif;
-    font-size: 0.8rem;
-    color: #555;
-    cursor: pointer;
+main{
+  padding: 20px;
 }
 
-.hero-banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #7aabef;
-    padding: 40px 50px;
-    border-radius: 4px;
-    margin-bottom: 50px;
+#hero {
+  background-color: rgb(142, 183, 236);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.hero-text {
-    flex: 1;
+#texto-hero h1{
+  font-size: 80px;
 }
 
-.hero-text .subtitle {
-    font-family: Arial, sans-serif;
-    font-size: 0.65rem;
-    color: #0044cc;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    display: flex;
-    margin-bottom: 15px;
+#texto-hero p{
+  font-size: 16px;
 }
 
-.hero-text h2 {
-    font-size: 3.2rem;
-    line-height: 1.1;
-    color: #1a1a1a;
-    font-weight: bold;
-    margin-bottom: 18px;
+#img-hero img{
+  width: 350px;
+  padding: 20px;
 }
 
-.hero-text .description {
-    font-family: Arial, sans-serif;
-    font-size: 0.85rem;
-    color: #666;
-    line-height: 1.6;
-    max-width: 480px;
-}
-
-.section-title {
-    margin-bottom: 25px;
-}
-
-.section-title small {
-    font-family: Arial, sans-serif;
-    font-size: 0.65rem;
-    color: #868080;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    display: block;
-    margin-bottom: 6px;
-}
-
-.section-title h2 {
-    font-size: 2rem;
-    color: #1a1a1a;
-    font-weight: bold;
-}
-
-.cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-
+#galeria-texto{
+  margin-top: 50px;
 }
 
 .card {
-    flex: 1 1 calc(33.333% - 20px);
-    box-sizing: border-box;
-    background-color: #7aabef;
-    padding: 20px;
-    border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  margin-top: 20px;
 }
 
-.card h3 {
-    font-size: 1.1rem;
-    color: #1a1a1a;
-    margin-bottom: 8px;
+.card img{
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.card p {
-    font-family: Arial, sans-serif;
-    font-size: 0.75rem;
-    color: #666;
-    line-height: 1.4;
+#galeria-imgs {
+  display: flex;
+  gap: 10px;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
-footer {
-    margin-top: 50px;
-    font-family: Arial, sans-serif;
-    font-size: 0.75rem;
-    color: #888;
-}
-.card img {
-    max-width: 100%;
-    height: 200px;
+.card-texto {
+  padding: 10px;
 }
